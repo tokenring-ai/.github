@@ -1,117 +1,101 @@
 # TokenRing AI
 
-**Comprehensive AI-powered development tools and workflow orchestration platforms**
+**AI-powered tools for coding and content creation**
 
-Transform your development experience with our suite of intelligent tools designed for multi-agent orchestration, AI-powered development, and seamless remote collaboration.
+TokenRing AI builds practical, agent-driven software for people who want to create faster with AI. Our ecosystem is centered around two flagship products:
 
-## 🚀 Our Products
+- **Coder** — an AI coding assistant for real development work
+- **Writer** — an AI content creation and publishing assistant
 
-### [Converge](https://github.com/tokenring-ai/converge) - Multi-Agent Workflow Orchestration Platform
-Your unified AI mission control center. A conversational SaaS platform where teams collaborate with AI assistants through chat rooms, manage workflows, and integrate your entire tech stack.
+Together, they sit on top of a modular TypeScript monorepo with a large shared package ecosystem for agents, workflows, research, storage, publishing, automation, and real-time interfaces. :contentReference[oaicite:3]{index=3}
 
-**Key Features:**
-- Visual workflow builder with drag-and-drop interface
-- 50+ pre-built connectors (AWS, GitHub, Jira, Slack)
-- Real-time monitoring and analytics dashboard
-- Enterprise authentication and role-based access
+## Products
 
-### [Coder](https://github.com/tokenring-ai/coder) - AI-Powered Command Line Development Tool
-An interactive developer assistant tool designed to help you work with your codebase in a conversational manner. Chat with your code, issue commands, and leverage AI for editing, refactoring, testing, and more.
+### [Coder](https://github.com/tokenring-ai/coder)
+An AI-powered coding assistant built for developers who want to work directly with their codebase through chat, commands, automation, and specialized agents.
 
-**Key Features:**
-- Natural language command interface with AI assistance
-- Automated code review and testing integration
-- Git workflow automation with smart commits
-- Remote filesystem support (S3, SSH, gRPC)
+**What it does:**
+- Helps with editing, refactoring, testing, and debugging
+- Supports multi-agent workflows for larger tasks
+- Works locally with your code and infrastructure
+- Integrates with git, databases, Docker, Kubernetes, web research, and more
 
-### [WebTerminal](https://github.com/tokenring-ai/web-terminal) - Browser-Based Coding Terminal & File Explorer
-A lightweight, client-side coding terminal built with React, Vite, Tailwind CSS, and shadcn/ui. Experience terminal-based development directly in your browser.
+**Highlights:**
+- Multiple AI providers
+- Interactive CLI and web interface
+- Specialized agents for frontend, backend, testing, DevOps, architecture, security, and more
+- WebSocket and remote communication support
+- Strong local-first development workflow
 
-**Key Features:**
-- Resizable, dockable terminal interface
-- Integrated file explorer with remote support
-- Light/dark mode with customizable themes
-- Real-time collaboration and chat features
+:contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
 
-### [Host Agent](https://github.com/tokenring-ai/host-agent) - Bridge Service for Remote Resource Access
-Secure bridge service that provides seamless connectivity between your local environment and remote resources, enabling distributed development and deployment workflows.
+### [Writer](https://github.com/tokenring-ai/writer)
+An AI-powered writing and publishing platform for creating, editing, researching, and managing content with specialized agents.
 
-**Key Features:**
-- Secure gRPC-based communication protocol
-- Multi-cloud resource orchestration
-- Plugin architecture for extensibility
-- Enterprise-grade security and monitoring
+**What it does:**
+- Assists with article writing, editing, and publishing workflows
+- Supports research with web search and Wikipedia
+- Provides persistent content history and workflow state
+- Integrates with publishing platforms like WordPress and Ghost
 
-## 🏢 Enterprise Solutions
+**Highlights:**
+- Agent-based content creation workflows
+- Interactive chat interface
+- Web-based and CLI-based operation
+- Multi-model support across major AI providers
+- Built-in research and publishing tools
 
-### TokenRing Sprint - Pay-per-Sprint AI Agent Task Completion *(Coming Soon)*
-Complete complex, long-horizon tasks through supervised AI agents working on fixed-price contracts. Get laborious business tasks completed with human oversight and guaranteed quality.
+:contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
 
-### TokenRing Observe - Real-World Data Observation & Monitoring *(Coming Soon)*
-Create a comprehensive sensory layer for AI systems, enabling them to gather real-time information from sensors, databases, APIs, and human sources across your organization.
+## Shared Platform
 
-### TokenRing Interact - AI Action Execution & Human Collaboration *(Coming Soon)*
-Enable AI systems to take meaningful actions in the real world, from triggering automated processes to collaborating with humans through intelligent chat-based workflows.
+Both products are powered by the broader TokenRing AI monorepo: a modular TypeScript ecosystem with 50+ packages for agent orchestration, AI clients, storage, filesystem abstraction, research, scripting, workflow execution, publishing, cloud services, and frontend interfaces. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
 
-### TokenRing Bounty - Crowd-Powered, AI-Perfected Feature Delivery *(Coming Soon)*
-Mobilize a global network of coders and AI agents, all racing to ship your next feature faster, cheaper and with provable quality.
+## Core Capabilities
 
-## 🔧 Technology Stack
+Across TokenRing AI products, the platform includes:
 
-- **Languages:** Node.js, TypeScript, JavaScript, Python
-- **Frameworks:** React, Next.js, Vite
-- **Infrastructure:** Docker, Kubernetes, gRPC
-- **Cloud:** AWS, Google Cloud, Azure
-- **Databases:** PostgreSQL, MySQL, SQLite
-- **AI/ML:** OpenAI, Claude, Gemini, as well as open source models (Kimi, Qwen, GLM, etc.)
+- **Agent orchestration** for specialized AI workflows
+- **Multi-provider AI support** across leading commercial and open models
+- **Local and cloud filesystem support**
+- **Research and web search tooling**
+- **Database and persistence layers**
+- **Publishing and communication integrations**
+- **CLI, web UI, and API-driven interfaces**
+- **Workflow automation and scripting**
 
-## 🌟 Key Integrations
+:contentReference[oaicite:10]{index=10}
 
-Our tools seamlessly integrate with your existing workflow:
+## Technology
 
-- **Version Control:** GitHub, GitLab, Bitbucket
-- **Project Management:** Jira, Linear, Asana
-- **Communication:** Slack, Teams, Discord, Telegram
-- **Cloud Platforms:** AWS, Google Cloud, Azure
-- **CI/CD:** CircleCI, GitHub Actions, Jenkins
-- **Monitoring:** Prometheus, Grafana, DataDog
+- **Languages:** TypeScript, JavaScript, Node.js, Bun
+- **Frontend:** React, Vite
+- **Infrastructure:** Docker, Kubernetes, WebSockets, Fastify
+- **Storage:** SQLite, MySQL, PostgreSQL, S3
+- **AI:** OpenAI, Anthropic, Google, Groq, Cerebras, DeepSeek, and more
 
-## 🚀 Getting Started
+:contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}
 
-1. **Explore Our Products:** Visit individual repositories to learn more about each tool
-2. **Try Our SaaS Platform:** Sign up for [Converge](https://tokenring.ai) for immediate access
-3. **Install Open Source Tools:** Clone and run [Coder](https://github.com/tokenring-ai/coder) or [WebTerminal](https://github.com/tokenring-ai/web-terminal) or [Writer](https://github.com/tokenring-ai/writer)
-4. **Enterprise Solutions:** Contact us for TokenRing Sprint, Observe, and Interact
+## Getting Started
 
-## 📖 Documentation
+- Explore **[Coder](https://github.com/tokenring-ai/coder)** for AI-assisted software development
+- Explore **[Writer](https://github.com/tokenring-ai/writer)** for AI-assisted writing and publishing
+- Browse the broader **[TokenRing monorepo](https://github.com/tokenring-ai/tokenring)** for the complete package ecosystem
 
-- [Coder Documentation](https://github.com/tokenring-ai/coder#readme)
-- [Writer Documentation](https://github.com/tokenring-ai/writer#readme)
-- [WebTerminal Documentation](https://github.com/tokenring-ai/web-terminal#readme)
-- [Converge Documentation](https://docs.tokenring.ai/converge)
-- [Host Agent Setup Guide](https://docs.tokenring.ai/host-agent)
+## Documentation
 
-## 🤝 Contributing
+- [Coder README](https://github.com/tokenring-ai/coder#readme)
+- [Writer README](https://github.com/tokenring-ai/writer#readme)
 
-We welcome contributions to our open source projects! Please see individual repository contribution guidelines:
+## Contributing
 
-- [Coder Contributing Guide](https://github.com/tokenring-ai/coder/blob/main/CONTRIBUTING.md)
-- [WebTerminal Contributing Guide](https://github.com/tokenring-ai/web-terminal/blob/main/CONTRIBUTING.md)
+We welcome contributions across our open-source projects. Check the individual repositories for setup instructions, contribution guidelines, and package-specific documentation.
 
-## 📄 License
-
-Many of our open source projects are licensed under the MIT License. See individual repositories for specific license details.
-
-## 🔗 Links
+## Links
 
 - **Website:** [tokenring.ai](https://tokenring.ai)
-- **Twitter:** [@TokenRingAI](https://twitter.com/TokenRingAI)
-- **LinkedIn:** [TokenRing AI](https://linkedin.com/company/tokenring-ai)
-
-## 📧 Contact
-
-- **Email:** info@tokenring.ai
+- **GitHub:** [github.com/tokenring-ai](https://github.com/tokenring-ai)
 
 ---
 
-**Transform your development workflow with TokenRing AI** - Where artificial intelligence meets practical development tools.
+**TokenRing AI** builds practical agent-driven tools for developers and content creators.
