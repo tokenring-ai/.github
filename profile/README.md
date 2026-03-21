@@ -80,7 +80,7 @@ Across TokenRing AI products, the platform includes:
 
 - Explore **[Coder](https://github.com/tokenring-ai/coder)** for AI-assisted software development
 - Explore **[Writer](https://github.com/tokenring-ai/writer)** for AI-assisted writing and publishing
-- Browse the broader **[TokenRing monorepo](https://github.com/tokenring-ai/tokenring)** for the complete package ecosystem
+- Browse the broader **[TokenRing monorepo](https://github.com/tokenring-ai/monorepo)** for the complete package ecosystem
 
 ## Documentation
 
