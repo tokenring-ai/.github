@@ -2,58 +2,39 @@
 
 **AI-powered tools for coding and content creation**
 
-TokenRing AI builds practical, agent-driven software for people who want to create faster with AI. Our ecosystem is centered around two flagship products:
+TokenRing AI builds practical, agent-driven software for people who want to create faster with AI. Our ecosystem is now centered around our unified flagship product:
 
-- **Coder** — an AI coding assistant for real development work
-- **Writer** — an AI content creation and publishing assistant
+- **TokenRing One** — The all-in-one AI assistant for development and content creation
 
-Together, they sit on top of a modular TypeScript monorepo with a large shared package ecosystem for agents, workflows, research, storage, publishing, automation, and real-time interfaces. :contentReference[oaicite:3]{index=3}
+TokenRing One sits on top of a modular TypeScript monorepo with a large shared package ecosystem for agents, workflows, research, storage, publishing, automation, and real-time interfaces.
 
 ## Products
 
-### [Coder](https://github.com/tokenring-ai/coder)
-An AI-powered coding assistant built for developers who want to work directly with their codebase through chat, commands, automation, and specialized agents.
+### [TokenRing One](https://github.com/tokenring-ai/one)
+A unified AI-powered platform built for developers and creators who want to work directly with their codebase and content through chat, commands, automation, and specialized agents.
 
 **What it does:**
-- Helps with editing, refactoring, testing, and debugging
-- Supports multi-agent workflows for larger tasks
-- Works locally with your code and infrastructure
-- Integrates with git, databases, Docker, Kubernetes, web research, and more
+- **Coding:** Helps with editing, refactoring, testing, and debugging
+- **Writing:** Assists with article writing, editing, and publishing workflows
+- **Research:** Supports web search, Wikipedia, and information retrieval
+- **Infrastructure:** Works locally with your code, databases, and publishing platforms
+- **Integration:** Connects with git, Docker, Kubernetes, WordPress, Ghost, and more
 
 **Highlights:**
-- Multiple AI providers
+- Multiple AI providers (OpenAI, Anthropic, Google, Groq, Cerebras, DeepSeek, and more)
 - Interactive CLI and web interface
-- Specialized agents for frontend, backend, testing, DevOps, architecture, security, and more
+- Specialized agents for frontend, backend, testing, DevOps, architecture, security, and content
 - WebSocket and remote communication support
-- Strong local-first development workflow
-
-:contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
-
-### [Writer](https://github.com/tokenring-ai/writer)
-An AI-powered writing and publishing platform for creating, editing, researching, and managing content with specialized agents.
-
-**What it does:**
-- Assists with article writing, editing, and publishing workflows
-- Supports research with web search and Wikipedia
-- Provides persistent content history and workflow state
-- Integrates with publishing platforms like WordPress and Ghost
-
-**Highlights:**
-- Agent-based content creation workflows
-- Interactive chat interface
-- Web-based and CLI-based operation
-- Multi-model support across major AI providers
-- Built-in research and publishing tools
-
-:contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+- Strong local-first development and workflow state
+- Agent-based content creation and code orchestration
 
 ## Shared Platform
 
-Both products are powered by the broader TokenRing AI monorepo: a modular TypeScript ecosystem with 50+ packages for agent orchestration, AI clients, storage, filesystem abstraction, research, scripting, workflow execution, publishing, cloud services, and frontend interfaces. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+TokenRing One is powered by the broader TokenRing AI monorepo: a modular TypeScript ecosystem with 50+ packages for agent orchestration, AI clients, storage, filesystem abstraction, research, scripting, workflow execution, publishing, cloud services, and frontend interfaces.
 
 ## Core Capabilities
 
-Across TokenRing AI products, the platform includes:
+Across the TokenRing One platform, the ecosystem includes:
 
 - **Agent orchestration** for specialized AI workflows
 - **Multi-provider AI support** across leading commercial and open models
@@ -64,8 +45,6 @@ Across TokenRing AI products, the platform includes:
 - **CLI, web UI, and API-driven interfaces**
 - **Workflow automation and scripting**
 
-:contentReference[oaicite:10]{index=10}
-
 ## Technology
 
 - **Languages:** TypeScript, JavaScript, Node.js, Bun
@@ -74,18 +53,14 @@ Across TokenRing AI products, the platform includes:
 - **Storage:** SQLite, MySQL, PostgreSQL, S3
 - **AI:** OpenAI, Anthropic, Google, Groq, Cerebras, DeepSeek, and more
 
-:contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}
-
 ## Getting Started
 
-- Explore **[Coder](https://github.com/tokenring-ai/coder)** for AI-assisted software development
-- Explore **[Writer](https://github.com/tokenring-ai/writer)** for AI-assisted writing and publishing
+- Explore **[TokenRing One](https://github.com/tokenring-ai/one)** for unified AI-assisted development and writing
 - Browse the broader **[TokenRing monorepo](https://github.com/tokenring-ai/monorepo)** for the complete package ecosystem
 
 ## Documentation
 
-- [Coder README](https://github.com/tokenring-ai/coder#readme)
-- [Writer README](https://github.com/tokenring-ai/writer#readme)
+- [TokenRing One README](https://github.com/tokenring-ai/one#readme)
 
 ## Contributing
 
