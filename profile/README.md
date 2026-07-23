@@ -55,8 +55,7 @@ Across the TokenRing One platform, the ecosystem includes:
 
 ## Getting Started
 
-- Explore **[TokenRing One](https://github.com/tokenring-ai/one)** for unified AI-assisted development and writing
-- Browse the broader **[TokenRing monorepo](https://github.com/tokenring-ai/monorepo)** for the complete package ecosystem
+- Explore **[TokenRing One](https://github.com/tokenring-ai/one)** for the complete package ecosystem
 
 ## Documentation
 
